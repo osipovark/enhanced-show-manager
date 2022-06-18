@@ -40,7 +40,52 @@
       </nav>
     </div>
   </header>
-  <main class="lists">
+  <main>
+    <div class="add-show-form">
+      <h3 class="add-show-form__header">
+        New show
+      </h3>
+      <div class="add-show-form__inputs">
+        <input name="title" id="added-show-title" type="text" placeholder="Show title">
+        <textarea name="description" id="added-show-description" placeholder="Type your text here"></textarea>
+        <div class="add-show-form__list-options">
+          <label for="added-show-list">Choose a list for a show:</label>
+
+          <select name="lists" id="added-show-list">
+            <option value="plan-to-watch">Plan to watch</option>
+            <option value="watching">Watching</option>
+            <option value="completed">Completed</option>
+            <option value="on-hold">On hold</option>
+            <option value="dropped">Dropped</option>
+          </select>
+        </div>
+        <button class="add-show-form__button">Add</button>
+      </div>
+    </div>
+    <!-- <div class="add-show-form">
+      <h3 class="add-show-form__title">
+        New show
+      </h3>
+      <div class="add-show-form__fields">
+        <div class="add-show-form__field">
+          <input name="title" id="added-show-title" type="text" placeholder="Show title">
+        </div>
+        <div class="add-show-form__field">
+          <textarea name="description" id="added-show-description"></textarea>
+        </div>
+        <div class="add-show-form__list-options">
+          <label for="added-show-list">Choose a list for a show:</label>
+
+          <select name="lists" id="added-show-list">
+            <option value="plan-to-watch">Plan to watch</option>
+            <option value="watching">Watching</option>
+            <option value="completed">Completed</option>
+            <option value="on-hold">On hold</option>
+            <option value="dropped">Dropped</option>
+          </select>
+        </div>
+      </div>
+    </div> -->
   </main>
 </body>
 <script src="js/script.js"></script>
